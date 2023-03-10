@@ -1,0 +1,9 @@
+{
+  "name": "serverlessStaticWebsiteCourseSendFeedback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1332.0"
+  }
+}

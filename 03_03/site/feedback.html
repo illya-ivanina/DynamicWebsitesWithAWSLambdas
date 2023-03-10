@@ -20,8 +20,12 @@
         
         $.ajax({
           type: "POST",
-          url:  "https://rcyhka8xfd.execute-api.us-west-1.amazonaws.com/Testing/feedback",
+          url:  "https://32qh0gjtf9.execute-api.eu-central-1.amazonaws.com/Testing/feedback",
           data: $form.serialize(),
+          crossDomain: true,
+          xhrFields: {
+            withCredentials: true
+          },
           success: function(data) {
             alert(data);
           },
